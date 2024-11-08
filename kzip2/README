@@ -1,0 +1,20 @@
+### Dependencies for `kzip2` Utility
+1. **Python 3.x**
+2. **zlib module** (usually pre-installed with Python)
+3. **Shell Environment** (Linux, macOS, or Windows with bash)
+4. **GNU Make**
+
+**Pre-installed Python Libraries:**
+- argparse
+- os
+
+WE RECCOMMEND YOU DO NOT DELETE THE CHECK_BZIP2 FILE, THIS CHECKS THE FILE FOR ANY BROKEN PACKAGES/GENERAL ERRORS. IT WILL NOT OUTPUT ANY ERRORS IF YOU DELETE THE CHECK_BZIP2 FILE WHICH CAN CONFUSE USERS.
+
+REPORT ANY ERRORS TO ME ON GITHUB.
+
+How to Build:
+open the file in terminal
+type "make"
+if all goes well it should very quickly (since kzip2 is pretty lightweight.) build and make a kzip2 shell that is executable and works.
+
+if kzip2 reports broken packages or anything like that please sent the error message to me on github, it will help with future releases and bug fixes.
